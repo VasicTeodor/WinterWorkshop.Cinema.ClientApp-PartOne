@@ -1,0 +1,64 @@
+.set-overflow-y{
+  overflow-y: auto !important;
+}
+
+.dashboard-navigation{
+  background-color: #3e444a;
+}
+
+.app-content-main{
+  height: calc(100vh - 56px);
+  overflow-y: auto;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.text-decoration-none{
+  text-decoration: none;
+}
+
+.float-right{
+  float: right;
+}
+
+.card-width{
+  width: 100%;
+}
+
+.card-title-font{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.table-cinema-auditorium {
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+.table-cinema-auditorium td {
+  border: 1px solid black;
+  padding: 15px !important;
+  background-color: blue;
+}
+
+.table-cinema-auditorium td:hover {
+  background-color: darkblue;
+  cursor: pointer;
+}
+
+.table-cinema-auditorium tr {
+  margin-bottom: 10px;
+}
+
+.cinema-screen {
+  background-color: blue;
+  height: 25px;
+  width: 90%;
+}
+
+.active-link {
+  text-decoration: underline;
+  font-weight: bold;
+}
